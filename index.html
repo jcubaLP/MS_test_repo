@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Jaime's Test Page</title>
+        <!-- BEGIN LivePerson Monitor. -->
+         <script type="text/javascript">window.lpTag=window.lpTag||{},'undefined'==typeof window.lpTag._tagCount?(window.lpTag={wl:lpTag.wl||null,scp:lpTag.scp||null,site:'26828922'||'',section:lpTag.section||'',tagletSection:lpTag.tagletSection||null,autoStart:lpTag.autoStart!==!1,ovr:lpTag.ovr||{},_v:'1.10.0',_tagCount:1,protocol:'https:',events:{bind:function(t,e,i){lpTag.defer(function(){lpTag.events.bind(t,e,i)},0)},trigger:function(t,e,i){lpTag.defer(function(){lpTag.events.trigger(t,e,i)},1)}},defer:function(t,e){0===e?(this._defB=this._defB||[],this._defB.push(t)):1===e?(this._defT=this._defT||[],this._defT.push(t)):(this._defL=this._defL||[],this._defL.push(t))},load:function(t,e,i){var n=this;setTimeout(function(){n._load(t,e,i)},0)},_load:function(t,e,i){var n=t;t||(n=this.protocol+'//'+(this.ovr&&this.ovr.domain?this.ovr.domain:'lptag.liveperson.net')+'/tag/tag.js?site='+this.site);var o=document.createElement('script');o.setAttribute('charset',e?e:'UTF-8'),i&&o.setAttribute('id',i),o.setAttribute('src',n),document.getElementsByTagName('head').item(0).appendChild(o)},init:function(){this._timing=this._timing||{},this._timing.start=(new Date).getTime();var t=this;window.attachEvent?window.attachEvent('onload',function(){t._domReady('domReady')}):(window.addEventListener('DOMContentLoaded',function(){t._domReady('contReady')},!1),window.addEventListener('load',function(){t._domReady('domReady')},!1)),'undefined'===typeof window._lptStop&&this.load()},start:function(){this.autoStart=!0},_domReady:function(t){this.isDom||(this.isDom=!0,this.events.trigger('LPT','DOM_READY',{t:t})),this._timing[t]=(new Date).getTime()},vars:lpTag.vars||[],dbs:lpTag.dbs||[],ctn:lpTag.ctn||[],sdes:lpTag.sdes||[],hooks:lpTag.hooks||[],identities:lpTag.identities||[],ev:lpTag.ev||[]},lpTag.init()):window.lpTag._tagCount+=1;</script>
+        <!-- END LivePerson Monitor. -->
+
+<!-- Tupperware-->
+<script>
+    if (!String.prototype.trim) {
+        String.prototype.trim = function() {
+            return this.replace(/^\s+|\s+$/g, '');
+        };
+    }
+
+    window.jenkon = {
+        title: "Presidential Director",
+        Culture: "en-US",
+        country: "US",
+        activityCenter: "US-80000247829",
+        EnrollmentDate: "7/12/2005",
+        StateProvince: "Florida",
+        PromotionDate: "",
+        DemotionDate: "",
+        AccountStatus: "Active"
+    }
+    window.appRoot = "https://uscaoci-qa.tupperware.com:443/Business";
+    window.portalPath = "/Business/";
+    window.consentsURL = "https://uscaoci-qa.tupperware.com:443/Business/profile#info";
+    window.currentUserCultureName = "en-US";
+    window.businessPortalRoot = "https://uscaoci-qa.tupperware.com/Business";
+    window.analyticsApiRoot = "https://uscaoci-qa.tupperware.com/API";
+    window.consultant = {
+        country: "US",
+        culture: "en-US",
+        name: "Jane TEST",
+        account: "US-80000247829",
+        activitycenter: "US-80000247829"
+    }
+
+    //Made global for shared js use. //TODO - should probably be changed to dynamically be based on max container width
+    window.maxCompactWidth = screen.width;
+    window.requireJsConfig = {
+        urlArgs: "user=DEMOPRO",
+        waitSeconds: 0,
+        paths: {
+            "data": appRoot + "/Scripts/SharedData",
+            "Scripts": appRoot + "/Scripts",
+            "scripts": appRoot + "/Scripts",
+            "shared": appRoot + "/Scripts/Shared",
+            "addresses": appRoot + "/ViewModels/Addresses",
+            "lib": appRoot + "/Scripts",
+            "text": appRoot + "/Scripts/text",
+            "bootstrap": appRoot + "/Scripts/bootstrap",
+            "durandal": appRoot + "/Scripts/durandal",
+            "plugins": appRoot + "/Scripts/durandal/plugins",
+            "transitions": appRoot + "/Scripts/durandal/transitions",
+            "knockout": appRoot + "/Scripts/knockout-3.4.2",
+            "knockout-validation": appRoot + "/Scripts/knockout.validation.min",
+            "validation": appRoot + "/Scripts/validation",
+            "komapping": appRoot + "/Scripts/knockout.mapping",
+            "jquery": appRoot + "/Scripts/jquery-3.6.0.min",
+            "jsapi": appRoot + "/Scripts/jsapi",
+            "geoMap": appRoot + "/Scripts/Shared/geoMapVisualization/geoMap",
+            "downlineDetails": appRoot + "/Scripts/Shared/downline-details",
+            "jqueryUI": appRoot + "/Scripts/jquery-ui-1.10.4.custom.min",
+            "jqueryUIi18n": appRoot + "/Scripts/jquery-ui-i18n.min",
+            "vm": appRoot + "/ViewModels",
+            "formatter": appRoot + "/Scripts/jquery.formatter.min",
+            "bootbox": appRoot + "/scripts/bootbox.min",
+            "datatables": appRoot + "/Scripts/dataTables.min",
+            "datatables.net": appRoot + "/Scripts/jquery.dataTables.min",
+
+            "dataTables": appRoot + "/Scripts/jquery.dataTables.min",
+            "dataTablesPagination": appRoot + "/Scripts/Shared/datatable-pagination",
+
+            "responsive": appRoot + "/Scripts/dataTables.responsive.min",
+            "resources": appRoot + "/Scripts/resources",
+            "amplify": appRoot + "/Scripts/amplify.min",
+            "moment": appRoot + "/Scripts/moment-with-langs.min",
+            "spritely": appRoot + "/Scripts/jquery.spritely",
+            "webcamjs": appRoot + "/Scripts/webcamjs/webcam",
+            "timepicker": appRoot + "/Scripts/jquery.timepicker.min",
+            "isotope": appRoot + "/Scripts/isotope.pkgd.min",
+            "jquery-date": appRoot + "/Scripts/jquery-dateFormat.min.js",
+
+            //EventModels.
+            "event-model": appRoot + "/Scripts/SharedData/Events/event-model",
+            "eventCart-model": appRoot + "/Scripts/SharedData/Events/eventCart-model",
+            "cartItem-model": appRoot + "/Scripts/SharedData/Events/cartItem-model",
+            "cartPayment-model": appRoot + "/Scripts/SharedData/Events/cartPayment-model",
+
+            //Party UI
+            "Modernizr": appRoot + "/Scripts/BP2.0_styles/js/modernizr.custom",
+            //"Grid": appRoot + "/Scripts/BP2.0_styles/js/grid",
+            "jsCalendar": appRoot + "/Scripts/BP2.0_styles/js/jsCalendar-master/source/jsCalendar",
+
+        },
+        shim: {
+            bootstrap: {
+                deps: ['jquery'],
+                exports: "bootstrap"
+            },
+            typeahead: {
+                deps: ['jquery']
+            },
+            jqueryUI: {
+                deps: ['jquery'],
+                exports: "jqueryUI"
+            },
+            jqueryUIi18n: {
+                deps: ['jqueryUI']
+            },
+            dataTablesPagination: {
+                deps: ['bootstrap', 'dataTables']
+            },
+            formatter: {
+                deps: ['jquery'],
+                exports: "formatter"
+            },
+            bootbox: {
+                deps: ['jquery', 'bootstrap'],
+                exports: "bootbox"
+            },
+            amplify: {
+                deps: ['jquery'],
+                exports: "amplify"
+            },
+            timepicker: {
+                deps: ['jquery']
+            },
+            webcamjs: {
+                deps: ['jquery'],
+                exports: "Webcam"
+            },
+            responsive: {
+                deps: ['jquery', 'datatables']
+            },
+            komapping: {
+                deps: ['knockout'],
+                exports: 'komapping'
+            },
+            Modernizr: {
+                deps: ['jquery'],
+                exports: "Modernizr"
+            },
+            /*Grid: {
+                deps: ['jquery','Modernizr'],
+                exports: "Grid"
+            },*/
+            jsCalendar: {
+                deps: ['jquery'],
+                exports: "jsCalendar"
+            }
+        }
+    };
+
+    window.RequestVerificationToken = "hAf583gH5-H10MPOI28RB7JDvb6W3Avc5uWkLgQYKpU4X6RUAhaSua6lNfVD4yplyKWpIW-h1WIsTTKQ4yf_z9Jq0n-YKWW_N0u2JezLIcM1:Tz90R_B-Im43Vbmb3XmOMsVclUT4HT9ELKvfNpupj5i9qEAyZef05aSfedrLGB7GGzrYH6x-dcFT-GZJEe23GNlWRjYQyRt2WJx6L82rowM1";
+    window.TitlePostfix = "j6";
+</script>
+<!-- END Tupperware -->
+
+<style>
+    .LPMoverlay {
+    background-color: teal !important;
+    inset: auto 85px 85px auto !important;
+}
+</style>    
+</head>
+    <body>
+        <h1 style="text-align: center; color: teal">Test Page</h1>
+    </body>
+</html>
+
+
+
+
+
